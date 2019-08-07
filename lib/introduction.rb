@@ -10,15 +10,15 @@ end
    puts "Hi, my name is #{name} and I am learning to program in #{language}."
  end
  
- def introduction_with_language_optional(name, Language = "Ruby")
-   puts "Hi my name is #{name} and I am learning to program in #{Language}."
+ def introduction_with_language_optional(name, language = "Ruby")
+   puts "Hi my name is #{name} and I am learning to program in #{language}."
  end
  
- def introduction_with_language_optional(name, Language = "Ruby")
-   puts "Hi my name is #{name} and I am learning to program in #{Language}."
+ def introduction_with_language_optional(name, language = "Ruby")
+   puts "Hi my name is #{name} and I am learning to program in #{language}."
  end
  
- introduction_with_Language_optional("Python")
+ introduction_with_language_optional("Python")
  
  
  
